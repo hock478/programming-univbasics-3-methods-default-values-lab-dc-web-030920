@@ -3,5 +3,6 @@
 
 def meal_choice(veg1,veg2, protein = "meat")
   puts "What a nutritious meal!".inspect
-  message = "A plate of #{protein} with #{veg1} and #{veg2}."
+  puts "A plate of #{protein} with #{veg1} and #{veg2}."
+  return 0 
 end
